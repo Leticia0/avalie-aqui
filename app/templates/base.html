@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='assets/css/rodape.css') }}">
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='assets/SemanticUI/semantic.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='assets/SemanticUI/components/icon.min.css') }}">
+    <link href="{{bootstrap_find_resource('css/bootstrap.css', cdn='bootstrap')}}" rel="stylesheet">
     <script src="{{ url_for('static', filename='assets/jQuery/jquery-3.3.1.min.js') }}"></script>
     <script src="{{ url_for('static', filename='assets/SemanticUI/semantic.min.js') }}"></script>
 
@@ -49,7 +50,10 @@
 
 
 
+<script src="{{bootstrap_find_resource('jquery.js', cdn='jquery')}}"></script>
+    <script src="{{bootstrap_find_resource('js/bootstrap.js', cdn='bootstrap')}}"></script>
 <script>
+    
     $('.ui.dropdown')
         .dropdown();
 
