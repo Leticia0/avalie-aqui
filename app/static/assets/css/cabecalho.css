@@ -1,0 +1,21 @@
+div#menu{
+/*Não funcionou - queria deixar a borda quadrada*/
+}
+
+div#menu a:hover{
+    background-color: active;
+}
+
+div#login{
+    margin-left: 30%;
+}
+
+h3#login{
+    margin-left: 30%;
+    padding-top: 2%
+}
+
+a:hover#kk{
+	text-decoration: underline;
+	
+}

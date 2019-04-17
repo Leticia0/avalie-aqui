@@ -1,0 +1,35 @@
+#botao{
+	padding-top: 2%;
+	margin-left: 4%;
+}
+
+h3#pagina{
+	color: orange;
+}
+
+
+/*AQUI MUDA A IMAGEM DE FUNDO*/
+body{
+	background-image:url(../img/fundo.jpg);
+	background-position: center center;
+	background-attachment: scroll;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+/*
+
+#fundoo{
+
+	background-image:url(../img/carrossel/muffins.jpg);
+	width: 60%;
+
+}
+
+
+#margem{
+	margin-top: -40%;
+}
+
+#
+*/
