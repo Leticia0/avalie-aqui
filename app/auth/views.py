@@ -17,6 +17,3 @@ def login():
             return redirect(next)
         # flash('') ME COBREM
     return render_template('auth/login.html', form=form)
-
-
-    return render_template('auth/login.html')
